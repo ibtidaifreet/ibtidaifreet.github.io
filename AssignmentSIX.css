@@ -1,0 +1,43 @@
+body{
+  background-color: rgba(	173, 216, 230);
+  background-blend-mode: lighten;
+}
+
+h2 {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-family: fantasy;
+  color: Navy;
+  font-size: 60px;
+  font-stretch: semi-condensed;
+  margin: 0 0 0 auto;
+}
+
+p {
+  font-size: 20px;
+  color: Black;
+  text-align: center;
+}
+
+text {
+    background-color: rgb(83, 128, 128);
+    font-size: 40px;
+    text-align: center;
+}
+
+.intro-section{
+  display: flex;
+}
+.nav{
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: line-through;
+    color: Blue;
+}

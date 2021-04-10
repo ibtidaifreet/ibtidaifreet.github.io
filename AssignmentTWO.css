@@ -1,0 +1,58 @@
+body{
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+h1 {
+  font-size: 4.5em; /* 40px/16=2.5em */
+  text-align:center;
+  font-family: Verdana;
+  line-height: normal;
+  color: #d6b5f5;
+  letter-spacing: 7px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+h6 {
+    text-align: center;
+    font-size: 50px;
+    color:purple;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  color:blue;
+}
+.center{
+    margin-bottom: 30px;
+  background-color: pink;
+}
+.absolute{
+  height: 80vh;
+  background-image: url("https://static.wixstatic.com/media/868335_32d49b9f29e64ae3956a837c7c0205ed~mv2.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.airpods{
+  position: absolute;
+  right: 120px;
+  border-bottom: 60px;
+}

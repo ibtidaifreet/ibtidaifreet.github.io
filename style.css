@@ -1,4 +1,31 @@
 body {
- background-color:yellow;
- color: red;
+ background-color:#E6E6FA;
+ color: #000080;
+ text-align: center;
+ font-size: 4rem;
+}
+
+.main-header{
+  color: green;
+  flex-direction: column;
+}
+
+#main-paragraph {
+  color: blue;
+}
+main {
+  display: flex;
+  //flex-direction: row;
+
+}
+
+h1 {
+  font-size: 2.5em; /* 40px/16=2.5em */
+}
+
+.Homeworks{
+  font-size: 30px;
+}
+
+.div-2{
 }
